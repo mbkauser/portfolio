@@ -1,98 +1,337 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
+	<title>MK - Portfolio</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-
-	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
-	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
-	<title>Mubasshira Kauser</title>
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	<link href="common-css/fluidbox.min.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+	
 </head>
 <body>
-		<header class="cd-main-header">
-				<p style="color:white;align-self:center"> M B K </p>
-		
-				<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
-		
-				
-			</header>
-
-
-	<main class="cd-main-content">
-			<a href="#0" class="cd-nav-trigger">Menu<span></span></a>
-		<nav class="cd-side-nav">
-			<!-- <div class="logo">
-				<img src="img/mk.png" alt="Mubasshira Kauser Logo">
-			</div> -->
-
-			<ul>
-				<li class="has-children overview active users">
-					<a href="index.html">About Me </a>
-				</li>
-			</ul>
-			<ul>	
-				<li class="cd-label">My Links</li>
-				<li class="has-children bookmarks">
-					<a href="https://www.linkedin.com/in/mubasshira-kauser-04557a150/" target="_blank">LinkedIn</a>
-				</li>
-				<li class="has-children images">
-					<a href="http://picbear.com/mubasshirakauser" target="_blank">Instagram</a>
-				</li>
-			</ul>
-			
-			<ul>
-				<li class="cd-label">Portfolio</li>
-				<li class="has-children">
-						<a>Web Designs</a>
+	
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="images/mk-logo.png" alt=""></div>
+						<h2><b>Mubasshira Kauser</b></h2>
+						<h4 class="font-yellow">Student at the University of Waterloo</h4>
+						<br>
+						<a class="downlad-btn" href="#">Download Resume</a>
+						<ul class="information margin-tb-30">
 						
-						<ul>
-							<li><a href="#0">WD 1</a></li>
-							<li><a href="#0">WD 2</a></li>
-							<li><a href="#0">WD 3</a></li>
-						</ul>
-				</li>
-
-				<li class="has-children">
-							<a>App Designs</a>
+							<li><b>EMAIL : </b>mubasshira@outlook.com</li>
 							
-						<ul>
-							<li><a href="#0">AD 1</a></li>
-							<li><a href="#0">AD 2</a></li>
-							<li><a href="#0">AD 3</a></li>
 						</ul>
-				</li>
-
-				<li class="has-children comments">
-					<a href="minimal.html">Minimal Illustrations</a>
-				</li>
-				<li class="has-children comments">
-					<a href="detailed.html">Detailed Illustrations</a>
-				</li>
-				<li class="has-children comments">
-					<a href="icons.html">Icons</a>
-				</li>
+						<ul class="social-icons">
+							<!-- <li><a href="#"><i class="ion-social-pinterest"></i></a></li> -->
+							<li><a href="#"><i class="ion-social-linkedin"></i></a></li>
+							<li><a href="#"><i class="ion-social-instagram"></i></a></li>
+							<!-- <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+							<li><a href="#"><i class="ion-social-twitter"></i></a></li> -->
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
+	
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Portfolio</b></h3>
+						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="portfolioFilter clearfix margin-b-80">
+						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
+						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
+						<a href="#" data-filter=".branding"><b>APP DESIGN</b></a>
+						<a href="#" data-filter=".graphic-design"><b>GRAPHIC DESIGN</b></a>
+					</div><!-- portfolioFilter -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+		<div class="portfolioContainer">
 			
-			</ul>
-
+			<div class="p-item web-design">
+				<a href="images/portfolio-1-600x400.jpg" target="_blank">
+					<img src="images/portfolio-1-600x400.jpg" alt=""></a>
+			</div><!-- p-item -->
 			
-<!-- 
-			<ul>
-				<li class="cd-label">Action</li>
-				<li class="action-btn"><a href="#0">+ Button</a></li>
-			</ul> -->
-		</nav>
+			<div class="p-item branding">
+				<a href="images/WW.png" target="_blank">
+					<img src="images/WW.png" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item web-design">
+				<a href="images/portfolio-2-600x400.jpg" target="_blank">
+					<img src="images/portfolio-2-600x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item p-item-2 graphic-design">
+				<a class="img" href="images/portfolio-8-300x400.jpg" target="_blank">
+					<img src="images/portfolio-8-300x400.jpg" alt=""></a>
+				<a class="img" href="images/portfolio-9-300x400.jpg" target="_blank">
+					<img src="images/portfolio-9-300x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item branding graphic-design">
+				<a href="images/portfolio-3-600x400.jpg" target="_blank">
+					<img src="images/portfolio-3-600x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item graphic-design web-design">
+				<a href="images/portfolio-4-600x400.jpg" target="_blank">
+					<img src="images/portfolio-4-600x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+			
+			<div class="p-item  graphic-design branding">
+				<a href="images/portfolio-5-600x800.jpg" target="_blank">
+					<img src="images/portfolio-5-600x800.jpg" alt=""></a>
+			</div><!-- p-item -->
+				
+			<div class="p-item web-design branding">
+				<a href="images/portfolio-6-600x800.jpg" target="_blank">
+					<img src="images/portfolio-6-600x800.jpg" alt=""></a>
+			</div><!-- p-item -->
 
-		<div class="content-wrapper">
-			<h1> This site is currently under construction! </h1>
-				<!-- <img class="wallpaper-images" src="img/koala.png" > -->
-		</div> <!-- .content-wrapper -->
-	</main> <!-- .cd-main-content -->
-<script src="js/jquery-2.1.4.js"></script>
-<script src="js/jquery.menu-aim.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
+			<div class="p-item p-item-2 graphic-design">
+				<a class="img" href="images/portfolio-10-300x400.jpg" target="_blank">
+					<img src="images/portfolio-10-300x400.jpg" alt=""></a>
+				<a class="img" href="images/portfolio-11-300x400.jpg" target="_blank">
+					<img src="images/portfolio-11-300x400.jpg" alt=""></a>
+			</div><!-- p-item -->
+		
+		</div><!-- portfolioContainer -->
+		
+	</section><!-- portfolio-section -->
+	
+	
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>About me</b></h3>
+						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50">Hello and welcome to mbkauser.com! My name is Mubasshira and I’m currently a Science and Business/Biotechnology co-op student at the University of Waterloo. I’m also an avid learner and an individual with a passion for growing technology, scientific research, and UI/UX and graphic design.
+
+						Throughout the last few years, I’ve had multiple great opportunities to work in the IT and business departments of various companies. I’m constantly looking for new opportunities to further develop both technical and interpersonal skills. </p>
+					
+					<div class="row">
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".95">
+									<div></div>
+									<h6 class="progress-title">HTML5</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".91">
+									<div></div>
+									<h6 class="progress-title">CSS3</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+						
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-30">
+								<div class="radial-progress" data-prog-percent=".67">
+									<div></div>
+									<h6 class="progress-title">JAVASCRIPT</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+						
+						<div class="col-sm-6 col-md-6 col-lg-3">
+							<div class="radial-prog-area margin-b-50">
+								<div class="radial-progress" data-prog-percent=".96">
+									<div></div>
+									<h6 class="progress-title">ADOBE CS</h6>
+								</div>
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+	
+	<section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Work Experience</b></h3>
+						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+				
+					<div class="experience margin-b-50">
+						<h4><b>UX/UI DESIGNER</b></h4>
+						<h5 class="font-yellow"><b>ROYAL CANADIAN AIR FORCE</b></h5>
+						<h6 class="margin-t-10">JANUARY 2018 - APRIL 2018</h6>
+						<!-- <p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p> -->
+							<br>
+						<ul class="list margin-b-30">
+							<li>Designed the user flow of the Innovation Tracker</li>
+							<li>Developed the frontend of the Innovation Tracker, using HTML, CSS, and React.js</li>
+							<li>Performed user-validated research and implemented feedback to improve the design and further develop the Innovation Tracker</li>
+						</ul>
+					</div><!-- experience -->
+					
+					<div class="experience margin-b-50">
+						<h4><b>CONTENT MANAGEMENT CO-OP</b></h4>
+						<h5 class="font-yellow"><b>FGF BRANDS</b></h5>
+						<h6 class="margin-t-10">MAY 2017 - SEPTEMBER 2017</h6>
+						<br>
+						<!-- <p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p> -->
+						<ul class="list margin-b-30">
+							<li>Designed several graphics for in-house applications, such as landing pages, icons, and logos</li>
+							<li>Designed and developed the user interface for an in-house data filtering system</li>
+							<li>Collaborated with the IT team to gather, cleanse and analyze large amounts of data in order to consolidate and present it to appropriate audiences</li>
+						</ul>
+
+						<div class="experience margin-b-50">
+								<h4><b>TECHNICAL WRITER</b></h4>
+								<h5 class="font-yellow"><b>SAP</b></h5>
+								<h6 class="margin-t-10">SEPTERMBER 2016 - DECEMBER 2016</h6>
+								<br>
+								<!-- <p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+									quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+									eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p> -->
+								<ul class="list margin-b-30">
+									<li>Worked closely with subject-matter experts to gather relevant information and write documents that are clear, concise, and audience-appropriate using DITA CMS</li>
+									<li>Improved documentation by identifying and correcting inconsistencies and errors</li>
+									<li>Created informative and engaging blogs and videos for end users</li>
+									<li>Collaborated with developers to analyze and discuss bug reports, and incorporated finalized solutions into the documentation</li>
+								</ul>
+
+					</div><!-- experience -->
+					
+					<div class="experience margin-b-50">
+							<h4><b>QUALITY ASSURANCE & BUSINESS ANALYST</b></h4>
+							<h5 class="font-yellow"><b>UNIVERSITY OF WATERLOO, CO-OPERATIVE EDUCATION & CAREER ACTION</b></h5>
+							<h6 class="margin-t-10">SEPTERMBER 2016 - DECEMBER 2016</h6>
+							<br>
+							<!-- <p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+								quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+								eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p> -->
+							<ul class="list margin-b-30">
+								<li>Performed regression testing by carefully following detailed test cases in order to recognize system failures or incorrect functionality</li>
+								<li>Operated as liaison between students and Senior Business Analysts to resolve usability concerns regarding WaterlooWorks</li>
+								<li>Assisted with the planning of training initiatives to take place prior to the implementation of WaterlooWorks</li>
+							</ul>
+
+				</div><!-- experience -->
+					
+
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- experience-section -->
+	
+	<section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Education</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>Candidate for Bachelor of Science, Honours Science and Business, Co-op</b></h4>
+							<h5 class="font-yellow"><b>University of Waterloo</b></h5>
+							<h6 class="font-lite-black margin-t-10">Sep 2014 - Present</h6>
+							<p class="margin-tb-30">
+									Science and Business is a one-of-a-kind degree that equips students with both scientific know-how and valuable business skills.	
+							</p>
+						</div><!-- education -->
+						
+						<div class="education margin-b-50">
+							<h4><b>Ontario Secondary School Diploma (OSSD)</b></h4>
+							<h5 class="font-yellow"><b>SATEC @ W.A. Porter C.I</b></h5>
+							<h6 class="font-lite-black margin-t-10">Graduated in June 2014</h6>
+							<!-- <p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p> -->
+						</div><!-- education -->
+						
+						
+					</div><!-- education-wrapper -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- about-section -->
+	
+	
+	
+	
+	
+	
+	<!-- SCIPTS -->
+	
+	<script src="common-js/jquery-3.2.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/isotope.pkgd.min.js"></script>
+	
+	<script src="common-js/jquery.waypoints.min.js"></script>
+	
+	<script src="common-js/progressbar.min.js"></script>
+	
+	<!-- <script src="common-js/jquery.fluidbox.min.js"></script> -->
+	
+	<script src="common-js/scripts.js"></script>
+	
 </body>
 </html>
